@@ -6,4 +6,4 @@ To run the server, run:
 python3 manage.py runserver
 ```
 
-You can access the admin site with username `admin` and password `djangopony`.
+You can access the admin site with username `chelseaannecastelli` and password `djangopony`.
