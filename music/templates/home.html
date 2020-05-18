@@ -1,0 +1,9 @@
+<h1>All Artists</h1>
+
+<ul>
+  {% for musician in musicians %}
+    <li>
+      <a href="/musician/{{ musician.id }}">{{ musician.name }}</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+<h2>{{ album.name }}</h2>
+
+<h4>Tracklist:</h4>
+{% for song in songs %}
+<li>
+    <a href="/song/{{ song.id }}"> {{ song.name }} </a>
+    <br/>
+</li>
+{% endfor %}
+
+<br/>
+<strong>Artist:</strong> {{ album.artist }}
+<br/>
+<strong>Genre:</strong> {{ album.genre }}
+<br/>
+<strong>Date Released:</strong> {{ album.publish_date }}
